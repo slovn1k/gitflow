@@ -1,0 +1,13 @@
+git flow init -> to initialize the git flow in our git project
+
+git flow feature start [feature-name] -> this command will create a new feature for the project
+git flow feature publish [feature-name] -> this command will publish the feature on witch we were working
+git flow feature track [feature-name] -> this command will pull the feature and enable the track for the changes on remote branch
+git flow feature finish [feature-name] -> this command will merge the changes to the remote branch and delete it on the local and remote branch
+
+git flow release start [release-name] -> this command will create a release of the app
+git flow publish [release-name] -> this command will publish the release to the remote for other to work on it
+git flow release finish [release-name] -> this command will finish and publish the release with a message that will be written in a editor 
+
+git flow hotfix start [hotfix-name] -> this command will create a hotfix for fixing some very important and small bugs
+git flow hotfix finish [hotfix-name] -> this command will finish the hotfix
